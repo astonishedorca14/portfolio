@@ -9,23 +9,23 @@ export default function Portfolio() {
         <div className="portfolio-container">
             <div className="portfolio-grid-container">
                 <PortfolioItem
-                    img="/chengdu-taste-hover-img.png"
+                    img="./portfolio/chengdu-taste-hover-img.png"
                     page="/portfolio/chengdu-taste"
                     project={"Responsive Redesign: Chengdu Taste"}
 
                 />
                 <PortfolioItem
-                    img="/crossword-hover-img.png"
+                    img="./portfolio/crossword-hover-img.png"
                     page="/portfolio/crossword"
                     project={"Crossword Puzzle Editor"}
                 />
                 <PortfolioItem
-                    img="/interface-hover-img.png"
+                    img="./portfolio/interface-hover-img.png"
                     page="/portfolio/personas"
                     project={"Personas & Storyboarding: Ceremony"}
                 />
                 <PortfolioItem
-                    img="/iterative-design-hover-img.png"
+                    img="./portfolio/iterative-design-hover-img.png"
                     page="/portfolio/iterative-design"
                     project={"Iterative Design: Intuned"}
                 />

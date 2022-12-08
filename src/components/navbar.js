@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="nav-container">
             <a href="/" className="brand nav-logo">
                 <div className="kang-container">
-                    <img className="kang" src="/kang-logo.gif" alt="logo" />
+                    <img className="kang" src="./portfolio/kang-logo.gif" alt="logo" />
                 </div>
                 <div className="brand nav-title">
                     <p> ASTONISHED ORCA </p>
