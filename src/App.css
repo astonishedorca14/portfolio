@@ -1,0 +1,214 @@
+a, html, body {
+    color: #282c34;
+    font-family: "Raleway", sans-serif;
+}
+
+.App {
+    min-height: 100%;
+}
+
+.App-header {
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+
+
+/************** NAVBAR **************/
+.kang-container {
+    background: linear-gradient(to bottom, lightskyblue,powderblue,honeydew, honeydew, lightblue);
+    border-radius: 100px;
+    /*border: lightskyblue 0.1px solid;*/
+}
+
+.kang {
+    width: 3.25rem;
+    /*margin-right: 10px;*/
+}
+
+.nav-container {
+    display: flex;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: stretch;
+    align-self: auto;
+    flex: 0 auto;
+    max-width: 1300px;
+    /*position: sticky;*/
+    /*top: 0;*/
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    text-decoration: none;
+    gap: 20px;
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-bar a:hover, .nav-title p:hover {
+    color: dodgerblue;
+    transition: all .275s ease-in-out 0s;
+}
+
+
+/************** HOME **************/
+
+.home-wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 6.5em;
+}
+
+.home-print-container {
+    margin-bottom: 3.5em;
+}
+
+.print-animation {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.home-text-container {
+    margin-left: 3em;
+}
+
+.home-h2-text {
+    font-size:35px;
+    margin-bottom: 1em;
+}
+
+.home-short-para {
+    font-size: 22.5px;
+    font-weight: 300;
+    max-width: 750px;
+    margin-bottom: 10px;
+    line-height: 1.75;
+}
+
+/************** ABOUT ME **************/
+
+.about-cols-container {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5em;
+}
+
+.about-col-img > img {
+    width: 85%;
+}
+
+.about-col-text > h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 1em;
+    -webkit-text-stroke: 1px #0d0d0d;
+    font-style: normal;
+}
+
+.about-para {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/************** PORTFOLIO **************/
+
+.portfolio-grid-container {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    justify-content: space-evenly;
+    margin-top: 3.5em;
+    grid-gap: 3em;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-container {
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.portfolio-img:hover {
+    /*enlarge slight;y*/
+    transform: scale(1.075);
+}
+
+.portfolio-img {
+    transition: all .75s ease;
+}
+
+.portfolio-hover h2 {
+    text-transform: uppercase;
+    color: #282c34;
+}
+
+/************** FOOTER **************/
+
+footer {
+    margin-top: 15vh;
+    padding-bottom: 2vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+    font-size: 20px;
+}
+
+.social-media-icons a {
+    color: #0d0d0d;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.social-media-icons a:hover {
+    color: white;
+}
+
+.kd {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
