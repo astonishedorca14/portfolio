@@ -5,7 +5,7 @@ export default function About() {
         <div className="about-cols-container">
             <div className="about-col-img">
                 <Fade>
-                <img src="./portfolio/orca.png" alt="orca" />
+                <img src={process.env.PUBLIC_URL + "/orca.png"} alt="orca" />
                 </Fade>
             </div>
             <div className="about-col-text">
