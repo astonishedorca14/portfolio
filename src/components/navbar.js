@@ -5,7 +5,7 @@ import resume from "../assets/coming-soon.pdf";
 const Navbar = () => {
     return (
         <div className="nav-container">
-            <a href="/" className="brand nav-logo">
+            <a href="/portfolio" className="brand nav-logo">
                 <div className="kang-container">
                     <img className="kang" src={process.env.PUBLIC_URL + "/kang-logo.gif"} alt="logo" />
                 </div>
