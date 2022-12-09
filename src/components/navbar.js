@@ -15,7 +15,7 @@ const Navbar = () => {
             </a>
 
             <nav className="nav-bar">
-                <NavLink to="/portfolio">Portfolio</NavLink>
+                <NavLink to="/work">Portfolio</NavLink>
                 <NavLink to="/about">About Me</NavLink>
                 <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
             </nav>

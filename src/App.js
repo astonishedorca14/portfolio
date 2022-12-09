@@ -19,9 +19,9 @@ function App() {
             <Navbar />
             <Routes>
                 {/*default route*/}
-                <Route path="/" element={<Home />}/>
+                <Route path="/portfolio" element={<Home />}/>
                 <Route path="/about" element={<About />} />
-                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/work" element={<Portfolio />} />
                 <Route path="/resume" a={resume}/>
                 <Route path="/portfolio/chengdu-taste" element={<ChengduTaste />} />
             </Routes>
