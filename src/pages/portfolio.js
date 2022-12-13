@@ -9,7 +9,7 @@ export default function Portfolio() {
             <div className="portfolio-grid-container">
                 <PortfolioItem
                     img={process.env.PUBLIC_URL + "/chengdu-taste-hover-img.png"}
-                    page="/work/chengdu-taste"
+                    page="/chengdu-taste"
                     project={"Responsive Redesign: Chengdu Taste"}
                     description={"Modern and responsive redesign for a Providence institution"}
                 />

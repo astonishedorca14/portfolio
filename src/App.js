@@ -26,7 +26,7 @@ function App() {
                 <Route path="/resume" a={resume}/>
 
                 {/*work routes*/}
-                <Route path="/work/chengdu-taste" element={<ChengduTaste />} />
+                <Route path="/chengdu-taste" element={<ChengduTaste />} />
 
 
             </Routes>
