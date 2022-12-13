@@ -9,7 +9,7 @@ export default function About() {
                 </Fade>
             </div>
             <div className="about-col-text">
-                <Fade direction={"up"}>
+                <Fade big>
                     <h1>Let me introduce myself.</h1>
 
                     <p className="about-para">

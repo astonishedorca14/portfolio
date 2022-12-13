@@ -215,8 +215,9 @@ footer {
 
 /************** CHENGDU TASTE **************/
 
-.chengdu-taste-page {
-    background: white;
+.portfolio-page {
+    background: aliceblue;
+    font-family: "Raleway", sans-serif;
 }
 .header-img {
     margin-bottom: 6vh;
@@ -228,19 +229,24 @@ footer {
     line-height: 1.4em;
     margin-bottom: 0.6em;
     text-transform: lowercase;
-    /*text-shadow: 3px 3px 0 palegoldenrod;*/
+    text-shadow: 3px 3px 0 #29fef0;
 
+    /*text-shadow: 3px 3px 0 palegoldenrod;*/
 }
 
 .info-wrapper > p{
     font-weight: 500;
-    color: #525252;
+    /*color: #525252;*/
     font-size: 1.4em;
     line-height: 1.5em;
     /*margin-bottom: 1.5em;*/
 }
 
-#chengdu-hook {
+#chengdu-access{
+    margin-bottom: 1.5em;
+}
+
+#attention-hook {
     font-weight: 900;
     /*make 3d effect text*/
     text-shadow: 3px 2px 0 yellow;
@@ -256,20 +262,17 @@ footer {
     text-decoration: underline;
 }
 
-.chengdu-taste-content {
-   /*text-align: center;*/
-}
 
 .info-wrapper {
     display: flex;
     flex-direction: column;
     padding: 1.5em 2em;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
     margin-bottom: 4vh;
 }
 
-#chengdu-challenge {
+#challenge-p {
     /*italic*/
     font-style: italic;
 }
@@ -277,12 +280,72 @@ footer {
 h3 {
     font-weight: 900;
     font-size: 1.5em;
-    margin-bottom: 0.5em;
-
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 #chengdu-website {
     margin:auto;
     height: 60%;
     width: 50%;
+    padding-bottom: 5vh;
+}
+
+li {
+    text-align: left;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.multidiv-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+h4 {
+    padding: 1em;
+    color: #282c34;
+    text-transform: uppercase;
+}
+
+.col {
+    width: 50%;
+}
+
+.lofi-grid {
+    display: grid;
+    flex-flow: row wrap;
+}
+
+.lofi-grid > img, #visual-guide{
+    width: 80%;
+    margin: auto;
+    /*display: grid;*/
+    /*grid-template: repeat(2, 1fr) / repeat(2, 1fr);*/
+}
+
+.grid {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+    width: 70%;
+    margin: auto;
+}
+
+#redesign-mobile {
+    width: 25%;
+}
+
+#redesign {
+    height: fit-content;
+
+}
+
+#visual-p > a {
+    text-decoration: underline;
 }

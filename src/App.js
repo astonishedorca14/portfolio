@@ -7,6 +7,9 @@ import resume from "./assets/coming-soon.pdf";
 import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
 import ChengduTaste from "./pages/portfolio-pages/chengdu-taste";
+import Crossword from "./pages/portfolio-pages/crossword";
+import Personas from "./pages/portfolio-pages/ceremony";
+import IterativeDesign from "./pages/portfolio-pages/iterative-design";
 
 
 function App() {
@@ -25,7 +28,9 @@ function App() {
 
                 {/*work routes*/}
                 <Route path="/work/chengdu-taste" element={<ChengduTaste />} />
-
+                <Route path="/work/crossword" element={<Crossword />} />
+                <Route path="/work/personas" element={<Personas />} />
+                <Route path="/work/iterative-design" element={<IterativeDesign />} />
 
             </Routes>
         </HashRouter>
