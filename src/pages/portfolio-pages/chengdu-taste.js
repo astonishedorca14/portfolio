@@ -144,19 +144,19 @@ export default function ChengduTaste() {
                     <h3> Low-fidelity wireframes </h3>
 
                     <div className="lofi-grid">
-                        <img id ="lofi-1" src ={process.env.PUBLIC_URL +"lofi-1.png"}/>
-                        <img id ="lofi-2" src ={process.env.PUBLIC_URL +"lofi-2.png"}/>
-                        <img id ="lofi-3" src ={process.env.PUBLIC_URL +"lofi-3.png"}/>
+                        <img id ="lofi-1" src ={process.env.PUBLIC_URL +"/lofi-1.png"}/>
+                        <img id ="lofi-2" src ={process.env.PUBLIC_URL +"/lofi-2.png"}/>
+                        <img id ="lofi-3" src ={process.env.PUBLIC_URL +"/lofi-3.png"}/>
                     </div>
 
                     <h3> Visual Design Style Guide  </h3>
-                    <img id ="visual-guide" src ={process.env.PUBLIC_URL +"chengdu-vdg.png"}/>
+                    <img id ="visual-guide" src ={process.env.PUBLIC_URL +"/chengdu-vdg.png"}/>
 
                     <h3> High-Fidelity Prototyping   </h3>
                     <div className="hifi-grid">
-                        <img id ="lofi-1" src ={process.env.PUBLIC_URL +"hifi-1.png"}/>
-                        <img id ="lofi-2" src ={process.env.PUBLIC_URL +"hifi-2.png"}/>
-                        <img id ="lofi-3" src ={process.env.PUBLIC_URL +"hifi-3.png"}/>
+                        <img id ="lofi-1" src ={process.env.PUBLIC_URL +"/hifi-1.png"}/>
+                        <img id ="lofi-2" src ={process.env.PUBLIC_URL +"/hifi-2.png"}/>
+                        <img id ="lofi-3" src ={process.env.PUBLIC_URL +"/hifi-3.png"}/>
                     </div>
                 </section>
 
@@ -167,8 +167,8 @@ export default function ChengduTaste() {
                             href="https://astonishedorca14.github.io/chengdu-taste-redesign/chengdu_taste.html" target="_blank">link</a>. </p>
 
                     <div className={"grid"}>
-                        <img id="redesign" src={process.env.PUBLIC_URL + "redesign.png"}/>
-                        <img id="redesign-mobile" src={process.env.PUBLIC_URL +"redesign-mobile.png"}/>
+                        <img id="redesign" src={process.env.PUBLIC_URL + "/redesign.png"}/>
+                        <img id="redesign-mobile" src={process.env.PUBLIC_URL +"/redesign-mobile.png"}/>
                     </div>
                 </section>
 

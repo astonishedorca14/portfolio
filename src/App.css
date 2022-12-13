@@ -231,6 +231,7 @@ footer {
     text-transform: lowercase;
     text-shadow: 3px 3px 0 #29fef0;
 
+
     /*text-shadow: 3px 3px 0 palegoldenrod;*/
 }
 
@@ -263,12 +264,13 @@ footer {
 }
 
 
+
 .info-wrapper {
     display: flex;
     flex-direction: column;
     padding: 1.5em 2em;
-    margin-left: 16vw;
-    margin-right: 16vw;
+    margin-left: 19vw;
+    margin-right: 19vw;
     margin-bottom: 4vh;
 }
 
@@ -282,6 +284,8 @@ h3 {
     font-size: 1.5em;
     margin-bottom: 1em;
     margin-top: 1em;
+    text-shadow: 2px 2px 0 #FFB357;
+    text-transform: lowercase;
 }
 
 #chengdu-website {
@@ -295,7 +299,11 @@ li {
     text-align: left;
     padding-bottom: 15px;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 19px;
+}
+
+ul {
+    padding-top: 25px;
 }
 
 .multidiv-container {
