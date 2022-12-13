@@ -6,7 +6,7 @@ import Footer from "./components/footer";
 import resume from "./assets/coming-soon.pdf";
 import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
-import ChengduTaste from "./pages/chengdu-taste";
+import ChengduTaste from "./pages/portfolio-pages/chengdu-taste";
 
 
 
@@ -19,11 +19,16 @@ function App() {
             <Navbar />
             <Routes>
                 {/*default route*/}
+                <Route path="/" element={<Home />} />
                 <Route path="/portfolio" element={<Home />}/>
                 <Route path="/about" element={<About />} />
                 <Route path="/work" element={<Portfolio />} />
                 <Route path="/resume" a={resume}/>
-                <Route path="/portfolio/chengdu-taste" element={<ChengduTaste />} />
+
+                {/*work routes*/}
+                <Route path="/work/chengdu-taste" element={<ChengduTaste />} />
+
+
             </Routes>
         </BrowserRouter>
       </header>

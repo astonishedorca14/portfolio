@@ -22,7 +22,7 @@ const Footer = () => {
                         <FaLinkedin />
                     </a>
                 </div>
-                <p className="kd">"I'M ME, I DO ME, AND I CHILL"</p>
+                <p className="kd"> "I'M ME, I DO ME, AND I CHILL"</p>
                 <p>2022 © designed by orca </p>
             </div>
         </footer>

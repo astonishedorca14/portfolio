@@ -62,7 +62,7 @@ a, html, body {
     gap: 30px;
 }
 
-.nav-bar a {
+.nav-bar > a {
     text-decoration: none;
     font-size: 30px;
     font-weight: 600;
@@ -137,10 +137,8 @@ a, html, body {
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
-    margin: 0 auto;
     max-width: 700px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px auto;
 }
 
 /************** PORTFOLIO **************/
@@ -212,4 +210,66 @@ footer {
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+
+/************** CHENGDU TASTE **************/
+
+.chengdu-taste-page {
+    background: white;
+}
+.header-img {
+    margin-bottom: 6vh;
+}
+
+.section-header {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 1.4em;
+    margin-bottom: 0.6em;
+    text-transform: lowercase;
+    /*text-shadow: 3px 3px 0 palegoldenrod;*/
+
+}
+
+.info-wrapper > p{
+    font-weight: 500;
+    color: #525252;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    /*margin-bottom: 1.5em;*/
+}
+
+#chengdu-hook {
+    font-weight: 900;
+    /*make 3d effect text*/
+    text-shadow: 3px 2px 0 yellow;
+/*highlight text*/
+    text-decoration: underline;
+    text-decoration-color: #282c34;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+    margin-bottom: 1em;
+}
+
+#chengdu-hook-p > a{
+    text-decoration: underline;
+}
+
+.chengdu-taste-content {
+   /*text-align: center;*/
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 2em;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 4vh;
+}
+
+#chengdu-challenge {
+    /*italic*/
+    font-style: italic;
 }
