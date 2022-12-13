@@ -1,11 +1,11 @@
 import PortfolioItem from "../components/porfolio-item";
 import ChengduTaste from "./chengdu-taste";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 
 export default function Portfolio() {
     return (
-        <Fade big>
+        <Fade>
         <div className="portfolio-container">
             <div className="portfolio-grid-container">
                 <PortfolioItem

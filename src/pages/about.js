@@ -1,15 +1,15 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 export default function About() {
     return (
         <div className="about-cols-container">
             <div className="about-col-img">
                 <Fade>
-                <img src={process.env.PUBLIC_URL + "/orca.png"} alt="orca" />
+                    <img className="orca-about"  src={process.env.PUBLIC_URL + "/orca.png"} alt="orca" />
                 </Fade>
             </div>
             <div className="about-col-text">
-                <Fade bottom>
+                <Fade direction={"up"}>
                     <h1>Let me introduce myself.</h1>
 
                     <p className="about-para">

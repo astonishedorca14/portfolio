@@ -120,7 +120,7 @@ a, html, body {
     margin-top: 3.5em;
 }
 
-.about-col-img > img {
+.orca-about {
     width: 85%;
     border-radius: 80px;
 }

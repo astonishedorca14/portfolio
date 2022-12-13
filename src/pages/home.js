@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 
 
 export default function Home() {
