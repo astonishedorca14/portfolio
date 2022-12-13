@@ -25,20 +25,19 @@ export default function About() {
                     </p>
 
                     <p className="about-para">
-                        At Brown University, I specialized in the Data Science and Machine Learning tracks, diving head first into the cutting-edge
-                        developments in our field. Over the past summer, I was fortunate enough to intern at Hamazon, where I worked on the HWS wave services,
-                        integrating industrial IoT devices into the Hamazon cloud ☁️
+                        While at Brown University, I specialized in Data Science and Machine Learning, diving head first into the cutting-edge
+                        developments in our field. Over the past summer, I was fortunate enough to intern at Moodle, where I worked on the MCS wave services,
+                        integrating industrial IoT devices into the Moodle cloud ☁️
                     </p>
 
                     <p className="about-para">
                         Outside of school, I'm a huge fan of the outdoors. I love to hike, camp, and explore the world around me.
-                        (psst ask me about national parks! 🏜) Oddly enough, as a kid I religiously watched Gordan Ramsay and Anthony Bourdain and
-                        somehow, not surprisingly, I developed a deep love for food and its ability to connect people 🥡 You can find me cooking, albeit not
-                        to either of their michelin-star standards.
+                        (psst ask me about national parks! 🏜) As a kid I religiously watched Gordan Ramsay and Anthony Bourdain and, not surprisingly, I developed a deep love for food and its ability to connect people 🥡
+                        Although I get hate for this, I'm a die hard Warriors fan and love anything basketball related (p.s stephen curry is the goat 🐐)
                     </p>
 
                     <p className="about-para">
-                        p.s stephen curry is the goat 🐐
+                        That's it for now! Thanks for stopping by :)
                     </p>
                 </Fade>
             </div>
