@@ -36,8 +36,23 @@ export default function ChengduTaste() {
                     <h2 className="section-header">process</h2>
 
                     <h3>
-                    1. Finding Existing Issues
+                        Identifying Usability Problems
                     </h3>
+                    <p id="part-1-p">
+                        For context, Chengdu Taste is a Chinese restaurant located in Providence,
+                        Rhode Island that specializes in Sichuan cuisine.
+                        Think red hot, chilli laced, numbing spice. As a student who attends Brown
+                        University nearby, Chengdu Taste certainly has been
+                        a valuable institution that has gotten me through some tough times!
+
+                        <br/><br/>
+                        Here's a screenshot of the current website along with a link to it: <a
+                        href="https://chengdutasteonline.com"
+                        target="_blank">chengdutasteonline.com</a>
+                        <br/><br/>
+                        <img src={process.env.PUBLIC_URL + "/chengduwebsite.png"} id="chengdu-website"/>
+                    </p>
+
                     <div class = "multidiv-container">
                         <div class = "multidiv-col">
                         </div>
