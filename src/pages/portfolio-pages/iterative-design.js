@@ -69,20 +69,130 @@ export default function IterativeDesign() {
                 </p>
 
                 <iframe
-                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo9FpXODdTeUAu36U84OEjR%2Fcs1300-iterative-design-before-feedback%3Fnode-id%3D14%253A2100%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D14%253A2100"
-                        allowFullScreen/>
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fo9FpXODdTeUAu36U84OEjR%2Fcs1300-iterative-design-before-feedback%3Fnode-id%3D14%253A2100%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D14%253A2100"
+                allowFullScreen
+                />
+
+                <p>
+                   From the panel, we received the following feedback on our mockup:
+                </p>
+
+                {/*make a bullet pointed list*/}
+                <h4>Feedback</h4>
+                <ul>
+                    <li>
+                        Notification icons should have same color — different colors are a bit distracting
+                    </li>
+                    <li>
+                        Users should be able to see other notifications when selecting a single notification — try removing the blur from the notifications for the “Notification Click” page
+                    </li>
+                    <li>
+                        Search bar gets cut off by the MacBook notch when interacting with the prototype. Making it smaller could fix this problem
+                    </li>
+                    <li>
+                        The profile icon and profile picture have the same functionality — remove one since having both is redundant
+                    </li>
+                    <li>
+                        On the “My Team” page, there is no need for the team members to be in a carousel view, as this requires more effort than scrolling
+                    </li>
+                    <li>
+                        Try leveraging an exit modal to provide a cleaner exit to the “Create metric” flow
+                    </li>
+                    <li>
+                        Consider moving the notification panel to the right side of the “My Dashboard” page to establish better hierarchy; the notifications are subordinate to the dashboard panel
+                    </li>
+                </ul>
+
+                <p>
+                    Here's our interactive high-fidelity mockup of our interface with updates from the we received feedback:
+                </p>
+
+                <iframe
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaqBnvhI1q1a3EDv55sor1d%2Fcs1300-iterative-design-Final%3Fnode-id%3D14%253A2100%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D14%253A2100"
+                allowFullScreen
+                />
 
             </section>
 
             {/*user testing section*/}
             <section className="info-wrapper">
                 <h2 className="section-header">user testing</h2>
+
+                <p>
+                    Lastly, to test the usability of our hifi prototype we used UserTesting.com to see how three users interacted with our interface.
+                </p>
+
+                <h3>
+                    Testing Instructions
+                </h3>
+
+                <p>
+                    Our primary task was to navigate into the metrics page and create a github metric.
+                    The overarching task was also divided into two subtasks which was first navigating into the metric page and second successfully creating a github metric.
+
+                    <br/>
+                    <br/>
+                    Here are the instructions we provided to the users:
+                </p>
+                <h4>Instructions</h4>
+                <ol type={1}>
+                    <li>
+                        “Without leaving the homepage, what are your initial impressions of the website? Please be specific in your explanation.”
+                    </li>
+                    <li>
+                        “Now, from the homepage, please locate and navigate to the metrics page.”
+                    </li>
+                    <li>
+                        “Once in the metrics tab, create a new Github metric. Please continue until you receive confirmation that a new metric is added.”
+                    </li>
+                </ol>
+                <h3>
+                    User Responses
+                </h3>
+
+                <p>
+                    For each question I’ll briefly discuss general feedback, common errors, and overall performance.
+                </p>
+
+                <h4>Feedback</h4>
+                <ul>
+                    <li>
+                        Thought the color palette intuitive, noting that the vibrancy of the colors made it easy to determine the hierarchy of the colors.
+                    </li>
+                    <li>
+                        Found that the usage of modular dashboards aligned with their expectation for Intuned’s intended purpose.
+                    </li>
+                    <li>
+                        It was easy to both locate, navigate, and click into the metrics’ tab.
+                    </li>
+                    <li>
+                        Users expressed more confusion and difficulty creating a new Github metric. Specifically, users mentioned that the labels and buttons were not necessarily clear for creating a new metric.                    </li>
+                </ul>
+
+                <h3>
+                    Observations and Future Work
+                </h3>
+
+                <p>
+                    Overall, our UserTesting results were in line with our expectations. The users didn't have difficulty in completing the tasks and found our design intuitive.
+                    If anything, the users had more difficulty grasping that our website was a mockup and not a real product.
+                    <br/>
+                    <br/>
+                    Future iterations of our design, if we were to continue working on this project, would include:  (1) enlarge the size of the button to “Create Your Own” and (2) update the text of the button to be “Create Your Own Metric”. This would directly address the visibility issue and confusion of functionality expressed by the users.
+                </p>
+
             </section>
 
 
             {/*takeaways section*/}
             <section className="info-wrapper">
                 <h2 className="section-header">takeaways</h2>
+
+                <p>
+                    We actually ended up reaching out to the founders of Intuned and got a response! They were very happy with our design and said they would be interested in hearing more behind our motivation to conduct a iterative design process for Intuned.
+                    Our group thought it was pretty neat they took the time to reach out to us, so we wanted to share our response with you all.
+
+                </p>
 
             </section>
 
