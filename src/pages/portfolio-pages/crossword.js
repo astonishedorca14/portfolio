@@ -2,6 +2,7 @@ import {Fade} from "react-awesome-reveal";
 
 export default function Crossword() {
     return (
+        <Fade>
         <div className="portfolio-page">
             <img className="header-img" src={process.env.PUBLIC_URL + "/crossword-header.png"} alt="iterative-design" />
 
@@ -131,7 +132,7 @@ export default function Crossword() {
 
 
         </div>
-
+        </Fade>
 
 
 
