@@ -172,6 +172,14 @@ export default function ChengduTaste() {
                     </div>
                 </section>
 
+                <section className={"info-wrapper"}>
+                    <h2 className="section-header">Takeaways</h2>
+
+
+                </section>
+
+
+
 
 
                 {/*<h1>Hook</h1>*/}

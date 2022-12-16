@@ -114,20 +114,23 @@ export default function Personas() {
                         Personas
                     </h3>
 
-                    <div className={"grid"}>
+                    <div id="p-grid" className={"grid"}>
                         <img className="persona1-img" src={process.env.PUBLIC_URL + "/persona-1.png"} alt="persona-1-img" />
                         <img className="persona2-img" src={process.env.PUBLIC_URL + "/persona-2.png"} alt="persona-2-img" />
-
-
-                     </div>
+                    </div>
 
                     <h3>
                         Storyboard
                     </h3>
+                    <p>Using Tiffany's persona, I storyboarded what an interaction with the POS system at Ceremony might look like.</p>
+                    <img className="persona3-img" src={process.env.PUBLIC_URL + "/persona-3.png"} alt="persona-3-img" />
+                </section>
+
+                <section className={"info-wrapper"}>
+                    <h2 className="section-header">Takeaways</h2>
 
 
                 </section>
-
 
             </div>
         </Fade>
