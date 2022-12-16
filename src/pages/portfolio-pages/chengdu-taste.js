@@ -30,7 +30,7 @@ export default function ChengduTaste() {
                 {/*challenge section*/}
                 <section className="info-wrapper">
                     <h2 className="section-header">Challenge</h2>
-                    <p id="chengdu-challenge">
+                    <p id="challenge-p">
                         How might we redesign the website for Chengdu Taste to be more user friendly, more visually appealing, and more responsive to differing screen sizes?
                     </p>
                 </section>

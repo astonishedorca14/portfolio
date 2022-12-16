@@ -1,6 +1,5 @@
 import {Fade} from "react-awesome-reveal";
 
-
 export default function Crossword() {
     return (
         <div className="portfolio-page">
@@ -9,12 +8,10 @@ export default function Crossword() {
             {/*hook section*/}
             <section className="info-wrapper">
                 <h2 className="section-header">hook</h2>
-                <p id="attention-hook"> Does functionality far outweigh aesthetic perfection? Does form supercede function? </p>
+                <p id="attention-hook">[Temp] </p>
 
                 <p id="chengdu-hook-p">
-                    Quickly within the last three to four years, touchpad payment devices have become ubiquitous. And if you're not clear about what I'm talking about? It's those new devices at cafes and restaurants that have been charging 15% tip as a default.
-                    <br/><br/>
-                    As a result, I opted to choose the touchpad POS device as my interface of choice to do a deep dive case study on how users interact with it and how they feel.
+
                 </p>
             </section>
             {/*challenge section*/}
@@ -24,12 +21,21 @@ export default function Crossword() {
             </section>
             {/*process section*/}
             <section className="info-wrapper">
-                <h2 className="section-header">challenge</h2>
+                <h2 className="section-header">process</h2>
+                <h3>market investigation</h3>
+
+
+            </section>
+
+            {/*solution section*/}
+            <section className="info-wrapper">
+                <h2 className="section-header">solution</h2>
+                <h3></h3>
 
             </section>
             {/*takeaways section*/}
             <section className="info-wrapper">
-                <h2 className="section-header">challenge</h2>
+                <h2 className="section-header">takeaways</h2>
 
             </section>
 
