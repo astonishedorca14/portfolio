@@ -118,7 +118,9 @@ export default function Personas() {
 
                     <div id="p-grid" className={"grid"}>
                         <img className="persona1-img" src={process.env.PUBLIC_URL + "/persona-1.png"} alt="persona-1-img" />
+                        <p>Tiffany faces the issue of feeling pressure and obligation to tip through the interface. She, and this persona, represents the bulk of Ceremony customers I observed: Brown University students.</p>
                         <img className="persona2-img" src={process.env.PUBLIC_URL + "/persona-2.png"} alt="persona-2-img" />
+                        <p>Prinav interacts with the interface through a non-mobile wallet payment method and opts to actively not tip. He, and this persona, represents the subset of non-Brown University students that also enjoy Ceremony </p>
                     </div>
 
                     <h3>
@@ -130,7 +132,12 @@ export default function Personas() {
 
                 <section className={"info-wrapper"}>
                     <h2 className="section-header">Takeaways</h2>
+                    <p>
+                        The most interesting part of this project was observing how personal levels of comfort with technology affected how users interacted with the touchpad payment system. I found that the majority of users were familiar with the touchpad payment system, but that older individuals were less likely to use it. This was likely due to a lack of familiarity with the technology, and I think that the touchpad payment system could be improved by including more graphics and instructions on the device itself.
 
+                        Moreover, the dynamic between tipping and the touchpad payment system was interesting. I found that many users felt obligated to tip more than they otherwise would have been before the touchpad payment system was introduced. This was likely due to the default tip percentage being set to 22%, and I think that the touchpad payment system could be improved by allowing users to set their own tip percentage.
+
+                    </p>
 
                 </section>
 

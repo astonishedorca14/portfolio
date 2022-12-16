@@ -383,7 +383,23 @@ h4 {
 }
 
 #p-grid {
-    flex-direction: column;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    /*margin: auto;*/
+    text-align: center;
+    gap: 25px;
+}
+#p-grid > img {
+    width: 100%;
+    /*height: 10%;*/
+    margin: auto;
+}
+
+#p-grid > p {
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: auto;
 }
 
 /************** ITERATIVE **************/
@@ -404,4 +420,54 @@ iframe {
 
     width: 100%;
     height: 70vh;
+}
+
+#email-img {
+    margin-top: 20px;
+    border-radius: 20px;
+    /*margin-bottom: 20px;*/
+}
+
+/************** CROSSWORD **************/
+
+#cw-wrap{
+    margin-top: 3.5em;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 15px;
+    justify-content: center;
+}
+
+#cw-wrap > p {
+    margin: auto;
+    text-align: center;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+
+#cw-wrap > img, #cw-item > img {
+    border-radius: 20px;
+}
+
+#cw-item {
+    display: flex;
+    gap: 20px;
+    margin: 0 -10em;
+}
+
+#cw-item > p {
+    margin: auto;
+    text-align: center;
+    line-height: 1.3em;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+#cw-item > img {
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+
+#x {
+    text-decoration: underline;
 }

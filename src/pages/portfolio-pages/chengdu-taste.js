@@ -174,7 +174,14 @@ export default function ChengduTaste() {
 
                 <section className={"info-wrapper"}>
                     <h2 className="section-header">Takeaways</h2>
+                    <p>
+                        One of the key takeaways from my responsive redesign project was the importance of following best practices in CSS. I learned a lot about techniques like using a mobile-first approach, using responsive units, and organizing my styles for better maintainability.
+                        Overall, the project was a great learning experience that allowed me to improve my skills and knowledge in UI/UX design.
+                        <br/> <br/>
 
+                        I also found it funny that even got to show the owner of Chengdu Taste the new website I built! He was very happy with the new design and lamented that he had already paid someone to code and design the previous website.
+
+                    </p>
 
                 </section>
 

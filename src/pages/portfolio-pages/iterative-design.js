@@ -192,7 +192,12 @@ export default function IterativeDesign() {
                     We actually ended up reaching out to the founders of Intuned and got a response! They were very happy with our design and said they would be interested in hearing more behind our motivation to conduct a iterative design process for Intuned.
                     Our group thought it was pretty neat they took the time to reach out to us, so we wanted to share our response with you all.
 
+
                 </p>
+
+
+                <img id={"email-img"} src={process.env.PUBLIC_URL + "/intuned-email.png"} alt="email" />
+
 
             </section>
 
