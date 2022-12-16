@@ -69,6 +69,8 @@ export default function Personas() {
                         To fully conceptualize the user experience, I sketched out the POS system at Ceremony.
                     </p>
 
+                    <img className={"sketch-img"} src={process.env.PUBLIC_URL + "/sk.webp"} alt="ceremony-sketch-img" />
+
 
                     <h3>
                         Observations

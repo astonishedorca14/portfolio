@@ -3,7 +3,7 @@ import {Fade} from "react-awesome-reveal";
 export default function Crossword() {
     return (
         <div className="portfolio-page">
-            <img className="header-img" src={process.env.PUBLIC_URL + "/iterative-header.png"} alt="iterative-design" />
+            <img className="header-img" src={process.env.PUBLIC_URL + "/crossword-header.png"} alt="iterative-design" />
 
             {/*hook section*/}
             <section className="info-wrapper">
